@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOT-ypk-ak
+  host: IOT-ypk-ak
+  disk_quota: 1024M
+  services:
+  - IOT-ypk-ak-cloudantNoSQLDB
+  - IOT-ypk-ak-iotf-service
